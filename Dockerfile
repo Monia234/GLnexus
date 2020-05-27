@@ -14,7 +14,7 @@ RUN apt-get -qq update && \
      curl wget ca-certificates git-core less netbase \
      g++ cmake autoconf make file valgrind \
      libjemalloc-dev libzip-dev libsnappy-dev libbz2-dev zlib1g-dev liblzma-dev libzstd-dev \
-     python-pyvcf bcftools pv
+     python3-pyvcf bcftools pv
 
 # Copy in the local source tree / build context
 ADD . /GLnexus
